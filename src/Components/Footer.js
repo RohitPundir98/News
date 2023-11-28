@@ -26,6 +26,7 @@ const Footer = () => {
         color: "white",
         padding: "20px 0",
         width: "100%",
+        bottom:'0';
       }}
     >
       {/* Content section */}
