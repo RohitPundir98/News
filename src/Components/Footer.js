@@ -19,16 +19,17 @@ const Footer = () => {
 
   // JSX to render the component
   return (
-    <footer
-      className="container-fluid text-center"
-      style={{
-        background: "#333",
-        color: "white",
-        padding: "20px 0",
-        width: "100%",
-        bottom:'0';
-      }}
-    >
+   <footer
+  className="container-fluid text-center"
+  style={{
+    background: "#333",
+    color: "white",
+    padding: "20px 0",
+    position: "absolute",
+    width: "100%",
+    bottom: "0",
+  }}
+>
       {/* Content section */}
       <div className="row">
         <div className="col">
